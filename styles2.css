@@ -1,5 +1,6 @@
 body {
     background-image: url('https://pic.imgdb.cn/item/6741c798d29ded1a8c0ddcba.jpg');
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /* 让图片覆盖整个背景 */
+    background-position: center center; /* 背景居中 */
+    background-attachment: fixed; /* 背景固定 */
 }
